@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="series-frame">  
+        <h2>The Story of Tau</h2>
+        <p id="first-episode-info"></p>
+      </div>
+      
+      <div class="series-frame">
+        <h2>The Story of Tau</h2>
+        <p id="second-episode-info"></p>
+      </div>
+      
+      <div class="series-frame">
+        <h2>The Story of Tau</h2>
+        <p id="third-episode-info"></p>
+      </div>
+    
+      <script>
+      class Episode {
+          constructeur(title, auteur,duree){
+            this.title = title;
+            this.auteur= auteur;
+            this.duree= duree;
+
+          }
+      }
+      let firstepisode= new Episode(samuel,45);
+      let secondepisode= new Episode(desnos,55);
+      let primaryepisode= new Episode(MELKI,65);
+
+      document.queryselector("#secon-episode-info").innertext = "episode: ${firstepisode.title} auteur: ${firstepisode.auteur}" ;
+    
+       let donnee =["salut", "maintenant", "desormait"]
+
+
+    let donnee= donnee[0];
+
+
+      </script>
+
+
+
+
+
+</body>
+</html>
